@@ -1,7 +1,7 @@
 import { client, db } from '@/db'
 import { goals } from './schema/schema'
 import { fakerPT_BR as faker } from '@faker-js/faker'
-import { goalCompletions } from './schema/goal-completions'
+import { goalCompletions } from './schema/goal-completion'
 import dayjs from 'dayjs'
 
 async function seed() {
